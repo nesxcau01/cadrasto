@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 0 16px;
+}
+
+
+.grid-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.campo-largo {
+  grid-column: 1 / -1;
+}
+
+label {
+  display: block;
+  margin-bottom: 4px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+}
+
+.invalido {
+  border: 2px solid red;
+}
+
+.mensagem {
+  background-color: #d4edda;
+  border: 1px solid green;
+  padding: 10px;
+  margin-bottom: 15px;
+}
